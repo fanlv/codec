@@ -30,12 +30,12 @@ var (
 
 func asciiEncode(str string) {
 	fmt.Println("ASCII Encode:")
-	fmt.Println(asciiDecodeStr(str))
+	fmt.Println(asciiEncodeStr(str))
 }
 
 func asciiDecode(str string) {
 	fmt.Println("ASCII Decode:")
-	fmt.Println(asciiEncodeStr(str))
+	fmt.Println(asciiDecodeStr(str))
 }
 
 func asciiEncodeStr(str string) string {
